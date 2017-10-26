@@ -32,6 +32,9 @@ body {
     color: #555555;
 }
 a:hover { text-decoration: none }
+.single-blog-box{
+    margin-top: 100px;
+}
 .bog-box-bg-1{
     background-image: url(../img/blog1.jpg);
 }
