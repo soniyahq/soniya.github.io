@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+	h1, h2, h3, h4 { text-align: center;}
+}
+
+@media (min-width: 482px) {
+	.header-top h1 { font-size: 55px; }
+	.header-top h2 { font-size: 30px; }
+	.header-top p { font-size: 15px; }
+}
+@media (min-width: 768px) {
+	.header-top h1 { font-size: 55px; }
+	.header-top h2 { font-size: 20px; }
+	.header-top p { font-size: 15px; }
+	.header-top h3 { font-size:22px; }
+
+}
+@media (min-width: 992px) {
+
+	.header-top h1 { font-size: 55px; margin-top: 50px; }
+	.header-top h2 { margin-bottom: 40px;}
+	.header-top p { font-size: 15px; }
+
+	.padding_top{ padding-top:40px; overflow: hidden;}
+	.padding_bottom { padding-bottom:40px; overflow: hidden;}
+
+}
