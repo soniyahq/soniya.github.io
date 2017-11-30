@@ -1,8 +1,33 @@
-/* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
-    
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) { 
+  .login_title p {
+	font-size: 20px;
 }
+.col-md-3.col-md-offset-1.col-sm-4.middle_box {
+	margin-left: 15px;
+	width: 30%;
+}
+.col-md-3.col-md-offset-1.col-sm-4.last_box {
+	margin-left: 15px;
+	width: 30%;
+}
+.col-md-3.col-sm-4.frist_box {
+	width: 30%;
+} 
+.login_forget {
+	font-size: 12px;
+}
+.login {
+	font-size: 14px;
+}
+.wrapper {
+	padding-left: 60px;
+}
+
+}
+
+
+
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
   .blok2 {
@@ -18,7 +43,20 @@
 .search-query.form-control.search_icon {
 	margin-bottom: 20px;
 }
-    
+   .login_title p {
+	font-size: 20px;
+	text-align: center;
+}
+.wrapper {
+	padding-top: 100px;
+	padding-left: 20px;
+} 
+.login_forget {
+	font-size: 12px;
+}
+.login {
+	font-size: 14px;
+}
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
@@ -39,6 +77,9 @@
 }
 .search-query.form-control.search_icon {
 	margin-bottom: 20px;
+}
+.wrapper {
+	padding: 80px;
 }
 }
 
@@ -61,5 +102,18 @@
 	border-right: 1px solid #000;
 	color: #000;
 	font-size: 12px;
+}
+.wrapper {
+	padding: 50px;
+}
+.login_title p {
+	font-size: 20px;
+	text-align: center;
+}
+.login_forget {
+	font-size: 12px;
+}
+.login {
+	font-size: 14px;
 }
 }

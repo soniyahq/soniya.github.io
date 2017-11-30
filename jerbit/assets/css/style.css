@@ -21,6 +21,10 @@ html, body {
     display: block;
     margin: 0 auto 15px;
 }
+a{
+    color: #085394;
+    text-decoration: underline;
+}
 a:focus { outline: 0 solid }
 img {
     max-width: 100%;
@@ -38,7 +42,7 @@ h6 {
 body {
 
 }
-a:hover { text-decoration: none }
+
 
 /*css for navbar*/
 .navbar.navbar-default.custom-nav {
@@ -173,7 +177,8 @@ a:hover { text-decoration: none }
 }
 .navbar-right.menu_bottom li a {
     border-right: 1px solid #000;
-    color: #085394;
+    
+
     padding: 0px 20px;
     text-decoration: underline;
 }
@@ -193,17 +198,55 @@ a:hover { text-decoration: none }
 .navbar-right.menu_bottom li a:hover {
     color:#000;
 }
+/*login css*/
+.login_box img {
+    width: 100%;
+}
+.login_title p {
+    font-size: 24px;
+    text-align: center;
+}
+.form-control.log_in {
+    margin-top: 15px;
+    border-radius: 0px;
+}
+.login_forget {
+    width: 100%;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.form_text {
+  float: left;
+}
+.login {
+    float: right;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login_forget p {
+  clear: both;
+  float: left;
+  margin-top: 10px;
+}
+.login_forget p a {
+  float: right;
+  padding-left: 10px;
+}
 
+.wrapper{
+    padding-top: 50px;
+    margin: 0 auto; 
+}
 
-
-
-
-
-
-
-
-
-
+.wrapper {
+    padding-top: 100px;
+    padding-left: 120px;
+}
+.frist_box, .middle_box, .last_box{
+    
+}
 
 
 
