@@ -1,794 +1,197 @@
-/* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  .way_james_text h1 {
-	font-size: 90px;
-	padding-left: 90px;
+
+@media only screen and (min-width: 992px) and (max-width: 1300px) { 
+  .login_title p {
+	font-size: 20px;
 }
-.right_text p {
-	font-size: 17px;
+.col-md-3.col-md-offset-1.col-sm-4.middle_box {
+	margin-left: 15px;
+	width: 30%;
 }
-.banner_text h1 {
-	left: 14%;
+.col-md-3.col-md-offset-1.col-sm-4.last_box {
+	margin-left: 15px;
+	width: 30%;
 }
-.banner_text h1 {
-	font-size: 90px;
+.col-md-3.col-sm-4.frist_box {
+	width: 30%;
+} 
+.login_forget {
+	font-size: 12px;
 }
-.border-image {
-	width: 250px;
-	height: 250px;
-	border: 50px solid #fff;
+.login {
+	font-size: 14px;
 }
-.banner_text h1 span {
-	margin-left: 27px;
+.wrapper {
+	padding-left: 60px;
 }
-.banner_text h1 {
-	top: 157px;
-}
-.skewbox {	-webkit-transform: skew(0deg, 10deg) translateY(-80px);	-ms-transform: skew(0deg, 10deg) translateY(-80px);	transform: skew(0deg, 10deg) translateY(-80px);
-}
-.white_border {
-	padding-bottom: 67px;
-}
-.down_button {
-	position: absolute;
-	z-index: 111111111111;
-	right: 0;
-	bottom: 0;
-	left: 4%;
-	top: 765px;
-	text-align: center;
-}
-.we_text p {
-	width: 100%;
-	line-height: 22px;
-}
-.we_text h1::after {
-	left: 0%;
-}
-.footer_menu ul li {
-	display: inline-block;
-	padding: 0 34px;
-	line-height: 60px;
-	color: #fff;
-}
-.brand_item img {
-	width: 32%;
-	padding-right: 20px;
-	padding-left: 50px;
-}
-.get_started {
-	display: block;
-	width: 35%;
+.form-group.share_option {
+	width: 150px;
 	float: right;
 }
-.map_area {
-	width: 40%;
-	float: left;
-	overflow: hidden;
-}
-}
-/* Tablet Layout: 768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) { 
-.logo img {
-	width: 100%;
-	margin-top: 45px;
-}
-.top_menu {
-	background-color: #ebebeb;
-	overflow: hidden;
-	height: 100px;
-}
-.menu li a {
-	color: #000;
-	padding: 37px 40px;
-	line-height: 100px;
-	font-size: 20px;
-}
-.menu_icon a {
-	margin-top: 27px;
-}
-.border-image {
-	width: 246px;
-	height: 246px;
-	border: 50px solid #fff;
-}
- .banner_text h1 {
-	font-size: 95px;
-	top: 153px;
-	left: 11%;
-} 
-.banner_text h1 {
-	font-size: 75px;
-	top: 153px;
-	left: 11%;
-}
-.banner_text h1 span {
-	margin-left: 0px;
-}
-.skewbox {
-	margin-right: 0;
-}
-.white_border {
-	margin-left: 7px;
-}
-.we_text h1 {
-	font-size: 54px;
-	margin-bottom: 50px;
-}
-.sec {
-	padding: 100px 80px;
-}
-.we_text h1::after {
-	width: 418px;
-	left: 15%;
-}
-.brand_item img {
-	width: 32%;
-	padding-right: 10px;
-	padding-left: 15px;
-}
-.amazing_brand {
-	padding-top: 100px;
-}
-.brand_item2 {
-	text-align: center;
-	margin-top: 70px;
-	padding-bottom: 100px;
-}
-.we_text p {
-	line-height: 22px;
+#sel1 {
+	border: 1px solid #222;
+	border-radius: 0px;
+	height: 41px;
+	margin-top: -9px;
+	color: #222;
 	font-size: 16px;
 }
-.get_to_btn a {
-	font-size: 16px;
-	padding: 13px 20px;
-}
-.skewbox2 {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	padding: 100px 0;
-	-webkit-transform: skew(0deg, 10deg) translateY(-200px);
-	-ms-transform: skew(0deg, 10deg) translateY(-200px);
-	transform: skew(0deg, 10deg) translateY(-200px);
-	position: relative;
-	z-index: 111111;
-}
-.we_do_slider_text {
-	width: 100%;
-}
-.we_text2 h1 {
-	font-size: 48px;
-	color: #fff;
-	font-weight: 500;
-	position: relative;
-	margin-bottom: 50px;
-}
-.we_do_slider_text {
-	color: #fff;
-	border: 2px solid #2c9472;
-	height: 300px;
-	width: 100%;
-	margin: 0 auto;
-}
-.single_slider_text {
-	text-align: left;
-	margin-left: 20%;
-	width: 55%;
-	margin-top: 100px;
-	font-size: 12px;
-}
-.sec2 {
-	padding: 60px 170px;
-}
-.way_james_text h1 {
-	font-size: 70px;
-	padding-left: 20px;
-}
-.right_text {
-	top: 350px;
-	right: 0px;
-}
-.right_text p {
-	font-size: 14px;
-}
-.row.way_jemes_body {
-	background-color: #f4f4f4;
-	padding-bottom: 100px;
-}
-.amazing_brand p {
-	font-size: 18px;
-}
-.get_started a {
-	font-size: 20px;
-	line-height: 197px;
-	padding: 0 31px;
-}
-.footer_menu ul li {
-	display: inline-block;
-	padding: 0 18px;
-	line-height: 60px;
-	font-size: 12px;
-}
-.banner_text h3 {
-	margin-top: 116px;
-	font-size: 26px;
-}
-.get_button a {
-	font-size: 14px;
-	padding: 10px 18px;
-	margin: 0px 30px;
 }
 
-.down_button img {
-	width: 60px;
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  .blok2 {
+	margin: 15px;
+
 }
-.down_button {
-	left: 3%;
-	top: 645px;
+.navbar-toggle {
+	margin-top: 23px;
+}
+.btn.btn-default.btn-search {
+	margin-bottom: 20px;
+}
+.search-query.form-control.search_icon {
+	margin-bottom: 20px;
+}
+   .login_title p {
+	font-size: 20px;
 	text-align: center;
+}
+.wrapper {
+	padding-top: 150px;
+	padding-left: 20px;
+} 
+.login_forget {
+	font-size: 12px;
+}
+.login {
+	font-size: 14px;
+}
+.form-group.share_option {
+	width: 128px;
+	float: right;
+}
+.property_title h1 {
+	font-size: 24px;
+}
+#sel1 {
+	border: 1px solid #222;
+	border-radius: 0px;
+	height: 41px;
+	margin-top: -9px;
+	color: #222;
+	font-size: 16px;
 }
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- .logo img {
-	width: 100%;
-	margin-top: 45px;
-}
-.menu {
-	padding-left: 0;
-}
-  .menu li a {
-	padding: 51px 19px;
-	line-height: 100px;
-	font-size: 19px;
-} 
-.top_menu {
-	height: 100px;
-} 
-.menu_icon a {
-	margin-top: 27px;
-	margin-left: 70px;
-}
-.banner_text h1 {
-	font-size: 70px;
-	top: 153px;
-	left: 19%;
-}.banner_text h1 {
-	font-size: 70px;
-	top: 153px;
-	left: 13%;
-}
-.border-image {
-	width: 225px;
-	height: 225px;
-	border: 45px solid #fff;
-}
-.banner_text h1 span {
-	margin-left: 6px;
-}
-.down_button img {
-	width: 60px;
-}
-.banner_text h3 {
-	margin-top: 115px;
-	font-size: 25px;
-}
-.down_button {
-	top: 653px;
-}
-.get_button a {
-	font-size: 13px;
-	padding: 10px 15px;
-}
 
-.skewbox {
-	-webkit-transform: skew(0deg, 10deg) translateY(-66px);
-	    -ms-transform: skew(0deg, 10deg) translateY(-66px);
-	        transform: skew(0deg, 10deg) translateY(-66px);
-}
-.white_border {
-	margin-left: 7px;
-	padding-bottom: 66px;
-}
-.skewbox {
-	margin-right: 0;
-}
-.sec {
-	padding: 100px 80px;
-	padding-bottom: 50px;
-}
-.we_text2 h1 {
-	font-size: 49px;
-	margin-bottom: 50px;
-	padding-top: 40px;
-}
-
-.we_text h1::after {
-	width: 418px;
-	left: 15%;
-}
-.brand_item img {
-	width: 32%;
-	padding-right: 6px;
-	padding-left: 20px;
-}
-.get_button a {
-	font-size: 14px;
-	padding: 10px 18px;
-	margin: 0px 30px;
-}
-.get_to_btn a {
-	font-size: 14px;
-	color: #000;
-	padding: 14px 20px;
-	border: 2px solid #000;
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
-}
-.we_text p {
-	width: 80%;
-	margin: 0 auto;
-	line-height: 21px;
-	font-size: 16px;
-}
-.we_text2 h1 {
-	font-size: 49px;
-	margin-bottom: 50px;
-}
-.sec2 {
-	padding: 100px 85px;
-}
-.single_slider_text {
-	margin-top: 100px;
-}
-.way_james_text h1 {
-	font-size: 61px;
-	padding-left: 79px;
-}
-.right_text p {
-	font-size: 14px;
-}
-.right_text {
-	top: 378px;
-}
-.row.way_jemes_body {
-	padding-bottom: 100px;
-}
-.amazing_brand p {
-	font-size: 18px;
-	text-align: center;
-	margin-bottom: 70px;
-}
-.brand_item2 {
-	text-align: center;
-	margin-top: 70px;
-	padding-bottom: 90px;
-}
-.get_started a {
-	font-size: 18px;
-	line-height: 197px;
-	padding: 0 44px;
-}
-.footer_menu ul li {
-	padding: 0 18px;
-	font-size: 12px;
-}
+    
 }
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 667px) { 
-	.logo img {
-	width: 100%;
-	margin-top: 22px;
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.blok2 {
+	margin: 15px;
+
 }
-.menu {
-	padding-left: 0;
+.navbar-toggle {
+	margin-top: 23px;
 }
- .menu li a {
-	padding: 51px 10px;
-	line-height: 60px;
+.btn.btn-default.btn-search {
+	margin-bottom: 20px;
+}
+.search-query.form-control.search_icon {
+	margin-bottom: 20px;
+}
+.wrapper {
+	padding: 140px 80px;
+}
+.form-group.share_option {
+	width: 150px;
+	float: right;
+}
+.property_title h1 {
+	font-size: 20px;
+}
+.section_menu ul li a {
+	padding: 10px 25px;
+}
+.section_menu ul li a {
+	padding: 10px 13px;
 	font-size: 14px;
 }
-.top_menu {
-	height: 60px;
-} 
-.menu_icon a {
-	height: 35px;
-	width: 45px;
-	border: 4px solid #000;
-	float: left;
-	margin-top: 40px;
-	margin-left: 70px;
-	margin-top: 13px;
-	margin-left: 50px;
+#sel1 {
+	height: 39px;
+	margin-top: -9px;
+	font-size: 14px;
 }
-.banner_text h1 {
-	font-size: 70px;
-	top: 155px;
-	left: 18%;
+.container.slider_area {
+	padding: 0 30px;
 }
-.border-image {
-	width: 225px;
-	height: 225px;
-	border: 45px solid #fff;
-}
-.banner_text h1 span {
-	margin-left: 0px;
-}
-.banner_text h3 {
-	margin-top: 115px;
-	font-size: 25px;
-}
-.get_button a {
-	font-size: 13px;
-	padding: 10px 15px;
-}
-
-.skewbox {
-	-webkit-transform: skew(0deg, 10deg) translateY(-86px);
-	-ms-transform: skew(0deg, 10deg) translateY(-86px);
-	transform: skew(0deg, 10deg) translateY(-86px);
-}
-.white_border {
-	margin-left: 7px;
-	padding-bottom: 66px;
-}
-.skewbox {
-	margin-right: 0;
-}
-.sec {
-	padding: 100px 80px;
-}
-.we_text h1::after {
-	width: 362px;
-	left: 6%;
-}
-.way_jemes_section {
-	margin-top: -355px;
-}
-.we_text h1 {
-	font-size: 47px;
-}
-
-.skewbox2 {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	padding: 40px 0;
-	-webkit-transform: skew(0deg, 10deg) translateY(-150px);
-	-ms-transform: skew(0deg, 10deg) translateY(-150px);
-	transform: skew(0deg, 10deg) translateY(-150px);
-	position: relative;
-	z-index: 111111;
-}
-.brand_item img {
-	width: 100%;
-	padding-right: 60px;
-	padding-left: 60px;
-	margin-bottom: 30px;
-}
-.map_area {
-	width: 100%;
-	float: none;
+.container.slider_area {
+	margin-top: 60px;
 	overflow: hidden;
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-}
-.get_started {
-	display: block;
-	width: 100%;
-	float: none;
-	margin: 0 auto;
-	text-align: center;
-}
-.get_button a {
-	font-size: 14px;
-	padding: 10px 18px;
-	margin: 0px 30px;
-}
-.get_to_btn a {
-	font-size: 14px;
-	color: #000;
-	padding: 14px 20px;
-	border: 2px solid #000;
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
-}
-.we_text p {
-	width: 80%;
-	margin: 0 auto;
-	line-height: 21px;
-	font-size: 16px;
-}
-.we_text2 h1 {
-	font-size: 49px;
-	margin-bottom: 50px;
-}
-.sec2 {
-	padding: 100px 85px;
-}
-.single_slider_text {
-	margin-top: 100px;
-}
-.way_james_text h1 {
-	font-size: 51px;
-	padding-left: 30px;
-}
-.right_text p {
-	font-size: 12px;
-}
-.right_text {
-	top: 345px;
-}
-.row.way_jemes_body {
-	padding-bottom: 100px;
-}
-.amazing_brand p {
-	font-size: 18px;
-	text-align: center;
-	margin-bottom: 70px;
-}
-.brand_item2 {
-	text-align: center;
-	margin-top: 70px;
-	padding-bottom: 90px;
-}
-.get_started a {
-	font-size: 18px;
-	line-height: 197px;
-	padding: 40px 44px;
-	position: relative;
-}
-.footer_menu ul li {
-	padding: 0 4px;
-	font-size: 12px;
-	text-align: center;
-}
-.footer_menu ul li {
-	display: block;
-}
-.down_button {
-	left: 3%;
-	top: 598px;
-}
-.banner_text {
-	border: none;
-	margin: 0;
-}
-.down_button img {
-	width: 57px;
 }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 500px){
-	.banner_text h1 {
-	font-size: 60px;
-	top: 155px;
-	left: 17%;
-}
-}
 @media only screen and (min-width: 320px) and (max-width: 479px) { 
-.logo img {
-	width: 240px;
-	margin: 20px auto;
-	text-align: center;
-	overflow: hidden;
-	display: block;
-}
-.logo img {
-	width: 240px;
-	margin: 20px auto;
-	text-align: center;
-	overflow: hidden;
-	display: block;
-}
-.menu {
-	padding-left: 0;
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	overflow: hidden;
-	text-align: center;
-}
- .menu li a {
-	padding: 15px;
-	line-height: 60px;
-	font-size: 13px;
-}
-.top_menu {
-	height: auto;
-}
-.menu_icon a {
-	position: absolute;
-	right: 5px;
-	height: 27px;
-	width: 33px;
-	margin-top: 18px;
-	top: 0;
-}
-.banner_text h1 {
-	font-size: 55px;
-	top: 155px;
-	left: 13%;
-}
-.border-image {
-	width: 225px;
-	height: 225px;
-	border: 45px solid #fff;
-}
-.banner_text h1 span {
-	margin-left: 0;
-}
-.banner_text h3 {
-	margin-top: 105px;
-	font-size: 21px;
-}
-.get_button a {
-	font-size: 13px;
-	padding: 10px 15px;
-}
+	.blok2 {
+	margin: 15px;
 
-
-.skewbox {
-	-webkit-transform: skew(0deg, 10deg) translateY(-66px);
-	    -ms-transform: skew(0deg, 10deg) translateY(-66px);
-	        transform: skew(0deg, 10deg) translateY(-66px);
 }
-.white_border {
-	margin-left: 4px;
-	padding-bottom: 66px;
+.navbar-toggle {
+	margin-top: 23px;
 }
-.skewbox {
-	margin-right: 0;
+.btn.btn-default.btn-search {
+	margin-bottom: 20px;
 }
-.sec {
-	padding: 85px 50px;
-	padding-bottom: 0px;
+.search-query.form-control.search_icon {
+	margin-bottom: 20px;
 }
-.we_text h1::after {
-	width: 214px;
-	left: 1%;
-	top: 53px;
-}
-.we_text h1 {
-	font-size: 34px;
-}
-.skewbox2 {
-	padding: 40px 0;
-}
-.brand_item img {
-	width: 50%;
-	margin: 40px auto;
-	padding: 0;
-	text-align: center;
-	display: block;
-}
-.map_area {
-	width: 100%;
-	float: none;
-	overflow: hidden;
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-}
-.get_started {
-	display: block;
-	width: 100%;
-	float: none;
-	margin: 0 auto;
-	text-align: center;
-}
-.get_button a {
-	font-size: 11px;
-	padding: 10px 7px;
-	margin: 0px 7px;
-}
-.get_to_btn a {
-	font-size: 12px;
+.navbar-right.menu_bottom li a {
+	padding: 10px 13px;
+	border-right: 1px solid #000;
 	color: #000;
-	padding: 12px 16px;
-	border: 2px solid #000;
-	-webkit-transition: .3s;
-	-o-transition: .3s;
-	transition: .3s;
-}
-.we_text p {
-	width: 100%;
-	margin: 0 auto;
-	line-height: 21px;
-	font-size: 16px;
-}
-.we_text2 h1 {
-	font-size: 30px;
-	margin-bottom: 50px;
-}
-.sec2 {
-	padding: 80px 0px;
-}
-.single_slider_text {
-	margin-top: 72px;
-}
-.we_do_slider_text {
-	height: 300px;
-}
-.way_james {
-	width: 100%;
-	float: left;
-}
-.way_james_text h1 {
-	font-size: 60px;
-	padding-left: 91px;
-}
-.right_text {
-	top: 30px;
-	text-align: center;
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	position: relative;
-	left: 0px;
-}
-.row.way_jemes_body {
-	padding-bottom: 60px;
-}
-.amazing_brand p {
-	font-size: 13px;
-	text-align: center;
-	margin-bottom: 58px;
-}
-.brand_item2 {
-	text-align: center;
-	margin-top: 70px;
-	padding-bottom: 30px;
-}
-.get_started a {
-	font-size: 18px;
-	line-height: 197px;
-	padding: 40px 44px;
-	position: relative;
-}
-.footer_menu ul li {
-	padding: 0 4px;
 	font-size: 12px;
+}
+.wrapper {
+	padding: 120px 50px;
+}
+.login_title p {
+	font-size: 20px;
 	text-align: center;
 }
-.footer_menu ul li {
-	display: block;
+.login_forget {
+	font-size: 12px;
+}
+.login {
+	font-size: 14px;
+}
+.property_title h1 {
+	font-size: 18px;
+	line-height: 30px;
+}
+.section_menu ul li a {
+	padding: 10px 13px;
+	font-size: 14px;
+	border-right: 1px solid #222;
 }
 
-.map_area img {
-	margin: 25px auto;
+#sel1 {
+	height: 38px;
+	font-size: 14px;
 }
-.banner_text {
-	border: none;
-	margin: 0;
+.form-group.share_option {
+	width: 150px;
+	float: left;
+	margin-top: 35px;
 }
-.banner_text h1 {
-	font-size: 48px;
-	top: 155px;
-	left: 13%;
+.container.slider_area {
+	padding: 0 30px;
 }
-
-.down_button {
-	top: 598px;
-}
-.skewbox2 {
-	-webkit-transform: skew(0deg, 10deg) translateY(-180px);
-	-ms-transform: skew(0deg, 10deg) translateY(-180px);
-	transform: skew(0deg, 10deg) translateY(-180px);
-}
-.way_jemes_body {
-	border: none;
-	margin: 0;
-}
-.way_jemes_section {
-	margin-top: -387px;
-}
-.amazing_brand {
-	border: none;
-	margin: 0;
+.container.slider_area {
+	margin-top: 60px;
+	overflow: hidden;
 }
 }
