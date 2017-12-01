@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 992px) and (max-width: 1300px) { 
+@media only screen and (min-width: 1200px) and (max-width: 1300px) { 
   .login_title p {
 	font-size: 20px;
 }
@@ -37,6 +37,47 @@
 }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+  .login_title p {
+	font-size: 20px;
+}
+.col-md-3.col-md-offset-1.col-sm-4.middle_box {
+	margin-left: 15px;
+	width: 30%;
+}
+.col-md-3.col-md-offset-1.col-sm-4.last_box {
+	margin-left: 15px;
+	width: 30%;
+}
+.col-md-3.col-sm-4.frist_box {
+	width: 30%;
+} 
+.login_forget {
+	font-size: 12px;
+}
+.login {
+	font-size: 14px;
+}
+.wrapper {
+	padding-left: 60px;
+}
+.form-group.share_option {
+	width: 150px;
+	float: right;
+}
+#sel1 {
+	border: 1px solid #222;
+	border-radius: 0px;
+	height: 41px;
+	margin-top: -9px;
+	color: #222;
+	font-size: 16px;
+}
+.example_video_1-dimensions {
+	width: 388px !important;
+	height: 280px !important;
+}
+}
 
 
 /* Tablet Layout: 768px. */
@@ -82,6 +123,18 @@
 	margin-top: -9px;
 	color: #222;
 	font-size: 16px;
+}
+.info-text-general {
+	margin-bottom: 50px;
+	margin-top: 35px;
+}
+.example_video_1-dimensions {
+	width: 450px;
+	height: 300px;
+	margin-left: 20px;
+}
+.video-js {
+	margin: 0 auto;
 }
 }
 /* Mobile Layout: 320px. */
@@ -132,6 +185,47 @@
 .container.slider_area {
 	margin-top: 60px;
 	overflow: hidden;
+}
+.build_info_area, .location_area {
+	overflow: hidden;
+	border: 1px solid #222;
+	padding: 0 20px;
+	margin: 15px;
+}
+.condo_title h1 {
+	font-size: 22px;
+	text-align: center;
+}
+.condo_title {
+	margin-top: 40px;
+}
+.general_info h2 {
+	font-size: 16px;
+}
+.info-text-general {
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+.video-js {
+	margin: 0 auto;
+}
+.example_video_1-dimensions {
+	width: 390px;
+	height: 280px;
+}
+.tab-content {
+	border: 1px solid #222;
+	padding: 20px 0px;
+	height: 1000px;
+	margin: 0px 15px;
+}
+.general_info {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#myCarousel2 {
+	margin-bottom: 20px;
 }
 }
 
@@ -197,5 +291,56 @@
 .container.slider_area {
 	margin-top: 60px;
 	overflow: hidden;
+}
+.build_info_area, .location_area {
+	overflow: hidden;
+	border: 1px solid #222;
+	padding: 0 15px;
+	margin: 15px;
+}
+.condo_title h1 {
+	font-size: 20px;
+	text-align: center;
+}
+.condo_title {
+	margin-top: 40px;
+}
+.general_info h2 {
+	font-size: 16px;
+}
+.info-text-general {
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+.video-js {
+	margin: 0 auto;
+}
+.example_video_1-dimensions {
+	width: 300px;
+	height: 210px;
+}
+#myCarousel2 {
+	margin-bottom: 20px;
+}
+.info-text-general {
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+.general_info {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tab-content {
+	margin: 0px 15px;
+}
+.nav-custom li a {
+	text-decoration: none;
+	background-color: #CCCCCC;
+	border-radius: 0;
+	color: #000;
+	border-top-right-radius: 15px;
+	padding: 5px 10px;
+	font-size: 10px;
 }
 }

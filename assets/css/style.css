@@ -361,32 +361,170 @@ body {
     border-radius: 0px;
 }
 .btn.send-btn {
-    background-color: #FFD966;
+    background-color: #1e87f0;
     padding: 12px 24px;
-    border: 1px solid #222;
     margin: 15px 0px;
     border-radius: 0px;
+    color: #fff;
+    transition: .3s;
+}
+.btn.send-btn:hover{
+    background-color: #167bff;
+}
+.controls {
+    margin-top: 16px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
+#pac-input {
+    background-color: #fff;
+    padding: 0 11px 0 13px;
+    width: 400px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    text-overflow: ellipsis;
+    margin-left: 20px;
+}
 
+#pac-input:focus {
+    border-color: #4d90fe;
+    margin-left: -1px;
+    padding-left: 14px;  /* Regular padding-left + 1. */
+    width: 401px;
+}
 
+.pac-container {
+    font-family: Roboto;
+}
 
+#type-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
+}
 
+#type-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+/*condopage css*/
+.p_off{
+    padding: 0px;
+}
+.general_info {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.condo_title {
+  margin-top: 20px;
+  font-size: 22px;
+}
+.condo_title h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.build_info_area,.location_area{
+    overflow: hidden;
+    border: 1px solid #222;
+    margin: 40px 0;
+    padding: 0 30px;
+}
+.general_info_inner ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.general_info_inner ul li {
+    line-height: 25px;
+    font-size: 13px;
+}
+.info-text-general p {
+    line-height: 25px;
+}
+.info-text-general{
+    margin-bottom: 50px;
+}
+#myCarousel2 {
+    margin-bottom: 50px;
+}
+.general_info h2 {
+    font-size: 22px;
+}
+.google_map {
+    margin-bottom: 50px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #000;
+    background-color: #A4C1D8;
+    text-decoration: none;
+}
+.nav-custom li a{
+    text-decoration: none;
+}
+.nav.nav-pills.nav-custom li {
+    margin: 0;
+    border: 1px solid #222;
+    border-top-right-radius: 15px;
+}
+.nav-custom li a {
+    text-decoration: none;
+    background-color: #CCCCCC;
+    border-radius: 0;
+    color: #000;
+    border-top-right-radius: 15px;
+    padding: 5px 20px;
+}
+.nav.nav-pills.nav-custom li:last-child {
+    border-right: 1px solid #222;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #CCCCCC;
+}
+.tab-content {
+    border: 1px solid #222;
+    padding: 20px;
+    height: 1000px;
+}
+.nav.nav-pills.nav-custom {
+    margin-left: 15px;
+}
+ul.rent_box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #222;
+    overflow: hidden;
+}
+ul.rent_box li {
+  display: inline-block;
+  padding: 10px 12px;
+  margin: 0;
+  float: left;
+}
 
+.video-js .vjs-tech {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.condo_title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
 
 
