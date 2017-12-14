@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,800|Roboto:300,400,500,700');
+@font-face {
+    font-family: "Raleway SemiBold";
+    src: url("../fonts/Raleway-SemiBold.eot?") format("eot"), url("../fonts/Raleway-SemiBold.woff") format("woff"), url("../fonts/Raleway-SemiBold.ttf") format("truetype"), url("../fonts/Raleway-SemiBold.svg#Raleway-SemiBold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+a:hover { text-decoration: none }
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.blok1 {
+  height: 100%;
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/city-wallpaper-7.jpg);
+  background-position: center center;
+  background-size: cover; 
+}
+
+.blok2 {
+background-color: #fff; 
+}
+.example2 .navbar-brand > img {
+  padding: 17px 15px;
+  width: 100%;
+  height: auto;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.container-fluid.blok1::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: #000;
+  opacity: .3;
+  top: 0;
+}
+.nav-exito li a{
+  color: #fff;
+  transition: .3s;
+}
+
+.nav-exito li.active > a,.nav-exito li a:hover,.nav-exito li a:focus {
+    background-color: transparent;
+    color: #f79315;
+}
+.wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  display: table;
+}
+.inner_text_body {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  z-index: 1111;
+  position: relative;
+}
+.container.example2 {
+  z-index: 11111111;
+  position: relative;
+  margin-bottom: -88px;
+}
+.navbar.navbar-exitolabs {
+  padding-top: 17px;
+
+}
+.inner_text_body h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: "Raleway SemiBold";
+  margin-bottom: 40px;
+}
+h2 span.orange_color{
+  color: #ff960c;
+}
+h2 span.black_color{
+  color: #000000;
+}
+.inner_text_body p {
+  font-size: 18px;
+  width: 44%;
+  margin: 0 auto;
+  line-height: 35px;
+}
+.bottom_click_button{
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  display: inline-block;
+  margin-left: -12px;
+  z-index: 10;
+}
+/*bounce button*/
+
+.downArrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+}
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/*about section css*/
+.section_title {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.section_title h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.orange_color.border_botttom {
+  border-bottom: 2px solid #ff960c;
+}
+.about_item {
+  text-align: center;
+  border: 1px solid #e3e3e3;
+  padding: 50px;
+  color: #000;
+  min-height: 375px;
+  transition: .3s;
+}
+.about_item img {
+  padding-bottom: 30px;
+}
+.about_item h3 {
+  font-size: 26px;
+  font-weight: 900;
+}
+.about_item:hover{
+  box-shadow: 0px 6px 9px #e3e3e3;
+}
+.mr_15{
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
