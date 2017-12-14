@@ -44,7 +44,7 @@ html, body {
 
 .blok1 {
   height: 100%;
-  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/city-wallpaper-7.jpg);
+  background-image: url(../images/banner.jpg);
   background-position: center center;
   background-size: cover; 
 }
@@ -73,7 +73,7 @@ background-color: #fff;
   right: 0;
   content: "";
   background-color: #000;
-  opacity: .3;
+  opacity: .6;
   top: 0;
 }
 .nav-exito li a{
