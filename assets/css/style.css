@@ -28,9 +28,6 @@ ul{
   top: 6px;
   left: 0px;
 }
-.slider_img img{
-  width: 100%;
-}
 
 .looking_item {
   width: 20%;
@@ -486,11 +483,19 @@ option:checked { display:none; }
   padding-bottom: 80px;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  padding-right: 30px;
 }
 .carousel {
   position: relative;
   top: -126px;
-  margin-bottom: -138px;
+  margin-bottom: -145px;
+  height: 800px;
+}
+.p_off{
+  padding:0;
 }
 
+.item img {
+  height: 800px !important;
+}
 /*slider css*/
