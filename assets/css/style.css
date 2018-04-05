@@ -634,6 +634,8 @@ input[type="search"].ExpInput {
 .looking_right {
   width: 40% !important;
   padding-top: 14px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .store {
   width: 30%;
