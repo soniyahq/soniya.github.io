@@ -192,18 +192,9 @@
             <div class="looking_area">
               <form>
                 <div class="looking_item">
-                  <div class="form-group">
-                    <p>Are you looking for</p>
-                    <div class="input_item">
-                      <span><img src="assets/img/icon.png" alt=""></span>
-                      <input type="text" id="usr" placeholder="Zip Code">
-                    </div>
-                  </div>
-                </div>
-                <div class="looking_item">
                   <div class="form-group seclect">
                     <p>City</p>
-                    <span><img src="assets/img/icon3.png" alt=""></span>
+                    <span><img src="assets/img/icon.png" alt=""></span>
                     <select class="selectpicker">
                       <option>Dhaka</option>
                       <option>Rajshahi</option>
@@ -214,7 +205,7 @@
                 <div class="looking_item">
                   <div class="form-group seclect">
                     <p>Area</p>
-                    <span><img src="assets/img/icon3.png" alt=""></span>
+                    <span><img src="assets/img/icon.png" alt=""></span>
                     <select class="selectpicker">
                       <option>Dhanmondi</option>
                       <option>Mirpur</option>
@@ -224,18 +215,23 @@
                 </div>
                 <div class="looking_item">
                   <div class="form-group">
-                    <p>Street</p>
                     <div class="input_item">
-                      <span><img src="assets/img/icon2.png" alt=""></span>
-                      <input type="text" id="usr" placeholder="College street">
+                      <span><img src="assets/img/icon3.png" alt=""></span>
+                      <input type="text" id="usr" placeholder="Zip-Code">
                     </div>
                   </div>
                 </div>
-                <div class="looking_item search">
-                  <div class="inner-addon right-addon">
-                    <i class="glyphicon glyphicon-search"></i>
-                    <input type="text" class="form-control search" placeholder="Search" />
-                  </div>
+                <div class="looking_item looking_right">
+                    <div class="input_item store pull-left">
+                      <input type="text" id="usr" placeholder="Store Name">
+                    </div>
+                    <div class="searchbar pull-right">
+                      <div id="Exp-serach" class="Exp-serach">
+                        <input class="ExpInput " onkeyup="buttonUp();" placeholder="Enter your search term..." onblur="monkey();" type="search" value="" name="search" id="search">
+                        <input class="Expbtn" type="submit"  value="">
+                        <span class="ExpIcon"><i class="fa fa-search"></i></span>
+                    </div>
+                    </div>
                 </div>
               </form>
             </div>
@@ -483,6 +479,8 @@
          <script src="assets/js/bootstrap-select.min.js"></script>
          <script src="assets/js/slider.js"></script>
          <script src="assets/js/main.js"></script>
+         <script>
+           $('.selectpicker').selectpicker();
          </script>
     </body>
 </html>
