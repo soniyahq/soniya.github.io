@@ -1,3 +1,10 @@
+/* Saydaltak
+================================
+    Web Design by Soniya Hoque
+    mail:soniyahq@gmail.com
+=================================
+
+*/
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
   .btn-default {
@@ -5,6 +12,15 @@
 }
 	.looking_item {
 	padding-left: 20px;
+}
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 12px;
+}
+input[type="text"]:-ms-input-placeholder {
+  font-size: 12px;
+}
+input[type="text"]::-ms-input-placeholder {
+  font-size: 12px;
 }
 input[type="text"]::placeholder {
   font-size: 12px;
@@ -15,6 +31,10 @@ input[type="text"]:-ms-input-placeholder {
 .slider_text h3 {
 	font-size: 40px;
 }
+.ExpInput {
+	font-size: 12px;
+}
+
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
@@ -54,6 +74,15 @@ input[type="text"]:-ms-input-placeholder {
 .site_btn a {
 	font-size: 16px;
 	line-height: 55px;
+}
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 12px;
+}
+input[type="text"]:-ms-input-placeholder {
+  font-size: 12px;
+}
+input[type="text"]::-ms-input-placeholder {
+  font-size: 12px;
 }
 input[type="text"]::placeholder {
   font-size: 12px;
@@ -99,6 +128,19 @@ input[type="text"]:-ms-input-placeholder {
 .join_text p {
 	font-size: 14px;
 }
+.ExpInput {
+	font-size: 12px;
+}
+.searchbar {
+	width: 65%;
+}
+.store {
+	width: 35%;
+}
+.looking_area {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
@@ -128,6 +170,15 @@ input[type="text"]:-ms-input-placeholder {
 }
 .nav.navbar-nav.navbar-right.right_register li {
 	padding: 10px 0px;
+}
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 12px;
+}
+input[type="text"]:-ms-input-placeholder {
+  font-size: 12px;
+}
+input[type="text"]::-ms-input-placeholder {
+  font-size: 12px;
 }
 input[type="text"]::placeholder {
   font-size: 12px;
@@ -208,6 +259,19 @@ input[type="text"]:-ms-input-placeholder {
 .carousel {
 	height: 587px;
 }
+.ExpInput {
+	font-size: 12px;
+}
+.searchbar {
+	width: 65%;
+}
+.store {
+	width: 35%;
+}
+.looking_area {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 667px) { 
@@ -228,7 +292,8 @@ input[type="text"]:-ms-input-placeholder {
 }
 .looking_area {
 	min-height: 70px;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 	margin-bottom: 0;
 	border-radius: 0px;
 }
@@ -236,7 +301,12 @@ input[type="text"]:-ms-input-placeholder {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 0px;
 	border-top-right-radius: 10px;
+	border-top: 1px solid #c5c5c5;
 }
+.looking_area {
+	margin-top: 30px;
+}
+
 .looking_item {
 	width: 100%;
 	border-bottom: 1px solid #c5c5c5;
@@ -254,6 +324,15 @@ input[type="text"]:-ms-input-placeholder {
 .looking_area_section {
 	background-color: #fff;
 	padding-bottom: 30px;
+}
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 14px;
+}
+input[type="text"]:-ms-input-placeholder {
+  font-size: 14px;
+}
+input[type="text"]::-ms-input-placeholder {
+  font-size: 14px;
 }
 input[type="text"]::placeholder {
   font-size: 14px;
@@ -284,6 +363,17 @@ input[type="text"]:-ms-input-placeholder {
 	font-size: 14px;
 	line-height: 50px;
 }
+.looking_right {
+	width: 100%;
+	border-bottom: 1px solid #c5c5c5 !important;
+	border-right: 1px solid #c5c5c5 !important;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-left: 1px solid #c5c5c5 !important;
+}
+.ExpInput {
+	font-size: 14px;
+}
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) { 
 .top_left_item ul li {
@@ -303,7 +393,8 @@ input[type="text"]:-ms-input-placeholder {
 }
 .looking_area {
 	min-height: 70px;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 	margin-bottom: 0;
 	border-radius: 0px;
 }
@@ -311,6 +402,10 @@ input[type="text"]:-ms-input-placeholder {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 0px;
 	border-top-right-radius: 10px;
+	border-top: 1px solid #c5c5c5;
+}
+.looking_area {
+	margin-top: 30px;
 }
 .looking_item {
 	width: 100%;
@@ -329,6 +424,15 @@ input[type="text"]:-ms-input-placeholder {
 .looking_area_section {
 	background-color: #fff;
 	padding-bottom: 30px;
+}
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 14px;
+}
+input[type="text"]:-ms-input-placeholder {
+  font-size: 14px;
+}
+input[type="text"]::-ms-input-placeholder {
+  font-size: 14px;
 }
 input[type="text"]::placeholder {
   font-size: 14px;
@@ -389,4 +493,19 @@ input[type="text"]:-ms-input-placeholder {
 	color: #fff;
 	font-weight: normal;
 }
+.looking_right {
+  width: 100%;
+}
+.ExpInput {
+	font-size: 14px;
+}
+.looking_right {
+	width: 100%;
+	border-bottom: 1px solid #c5c5c5 !important;
+	border-right: 1px solid #c5c5c5 !important;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-left: 1px solid #c5c5c5 !important;
+}
+
 }
