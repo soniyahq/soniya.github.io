@@ -1,0 +1,116 @@
+.unit_inner {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+	margin-top: 50px;
+}
+.property_unit_title {
+	margin-bottom: 15px;
+}
+.property_unit_title h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.property_unit_title h3 span {
+  font-size: 16px;
+}
+.property_unit_title p {
+  font-size: 16px;
+  color: #666;
+}
+.property_unit_title p a {
+  color: #337ab7;
+  font-size: 14px;
+  text-decoration: none;
+}
+.property_unit_title p i {
+  font-size: 21px;
+  color: #999;
+}
+.single_unit_title {
+	padding: 20px 40px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.single_unit_title h4 {
+	font-weight: 400;
+	font-size: 20px;
+}
+.single_unit_info {
+	padding: 40px;
+}
+.single_unit_info h4 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.single_unit_info h4 span {
+	font-size: 16px;
+	font-weight: normal;
+	color: #999;
+}
+.single_unit_info h5 {
+	font-size: 16px;
+	line-height: 1.4;
+	font-weight: normal;
+}
+.single_unit_info ul {
+	margin-left: 0px;
+	padding: 0;
+	list-style: none;
+}
+.single_unit_info ul li {
+	line-height: 1.6;
+	color: #666;
+	font-size: 16px;
+}
+.single_unit_info ul li i {
+	color: #32d296;
+	padding-right: 5px;
+}
+.google_map{
+	padding: 0px 40px;
+}
+.google_map h4 {
+	font-size: 20px;
+}
+
+.right_info{
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

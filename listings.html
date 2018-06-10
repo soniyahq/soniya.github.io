@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>JERBIT</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link  href="assets/css/owl.carousel.min.css" rel="stylesheet">
+        <link  href="assets/css/owl.theme.default.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/listing_details.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+        
+    </head>
+    <body>
+        <!-- header section start-->
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-default navbar-fixed-top custom-nav">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar7">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-dark.png" alt=""></a>
+                      </div>
+
+                      <div id="navbar7" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-left menu_top">
+                          <li><a href="#">Buy</a></li>
+                          <li><a href="#">Rent</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right menu_top">
+                          <li><a href="properties.html">Properties</a></li>
+                          <li><a href="agent.html">Agents</a></li>
+                          <li><a href="condo-name.html">Home Owners</a></li>
+                          <li><a href="login.html">Login</a></li>
+                        </ul>
+                      </div>
+                      <!--/.nav-collapse -->
+                    </div>
+                    <!--/.container-fluid -->
+                </nav>
+            </div>
+        </div>
+        <!-- header section end-->
+        <!-- listing page main content start-->
+        <div class="listing_main_content">
+            <div class="nav-side-menu">
+                <div class="sidebar_top_title">Filter Options</div>
+                <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+              
+                    <div class="menu-list">
+              
+                        <ul id="menu-content" class="menu-content collapse out">
+                            <!-- Property Type -->
+                            <li  data-toggle="collapse" data-target="#property" class="collapsed">
+                              <a href="#">Property Type<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="property">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Rent</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Buy</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Bedrooms  -->
+                            <li  data-toggle="collapse" data-target="#bedroom" class="collapsed">
+                              <a href="#">Bedrooms<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="bedroom">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 Bedroom</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 Bedroom</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 Bedroom</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 Bedroom</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 Bedroom</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Maid’s Room  -->
+                            <li  data-toggle="collapse" data-target="#Maid" class="collapsed">
+                              <a href="#">Maid’s Room<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="Maid">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Bedroom and bathroom</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Bedroom, no bathroom</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>No</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Bathrooms  -->
+                            <li  data-toggle="collapse" data-target="#bathrooms" class="collapsed">
+                              <a href="#">Bathrooms<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="bathrooms">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 Bathrooms</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 Bathrooms</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 Bathrooms</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 Bathrooms</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 Bathrooms</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Price Range  -->
+                            <li  data-toggle="collapse" data-target="#pricerange" class="collapsed">
+                              <a href="#">Price Range<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="pricerange">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>0 - 500K</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>500K - 1M</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1M - 1.5M</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1.5M - 2M</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2M - 3M</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3M - 5M</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Size Range  -->
+                            <li  data-toggle="collapse" data-target="#sizerange" class="collapsed">
+                              <a href="#">Size Range<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="sizerange">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>0 - 35m<sup>2</sup></label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>36 - 50m<sup>2</sup></label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>51 - 75m<sup>2</sup></label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>76 - 100m<sup>2</sup></label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>101 - 150m<sup>2</sup></label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>151 - 250m<sup>2</sup></label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>251m<sup>2</sup></label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Public Transport  -->
+                            <li  data-toggle="collapse" data-target="#publictransport" class="collapsed">
+                              <a href="#">Public Transport<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="publictransport">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>100m</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>200m</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>500m</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1km</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1.5km</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2.0km</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Balconies  -->
+                            <li  data-toggle="collapse" data-target="#balconies" class="collapsed">
+                              <a href="#">Balconies<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="balconies">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 Balconie</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 Balconies</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 Balconies</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 Balconies</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 Balconies</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Parking  -->
+                            <li  data-toggle="collapse" data-target="#parking" class="collapsed">
+                              <a href="#">Parking<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="parking">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 Parking</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 Parking</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 Parking</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 Parking</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 Parking</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Furnishing  -->
+                            <li  data-toggle="collapse" data-target="#furnishing" class="collapsed">
+                              <a href="#">furnishing<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="parking">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Unfurnished</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Unfurnished</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Fully Furnished</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Kitchen  -->
+                            <li  data-toggle="collapse" data-target="#kitchen" class="collapsed">
+                              <a href="#">Kitchen<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="kitchen">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Separate Kitchen</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Counter Kitchen</label>
+                                    </div> 
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>None</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- TVs  -->
+                            <li  data-toggle="collapse" data-target="#tvs" class="collapsed">
+                              <a href="#">TVs<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="tvs">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 TV</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 TVs</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 TVs</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 TVs</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 TVs</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Air Con.  -->
+                            <li  data-toggle="collapse" data-target="#aircon" class="collapsed">
+                              <a href="#">Air Con.<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="aircon">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 Air Con.</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 Air Con.</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 Air Con.</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 Air Con.</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 Air Con.</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Fridge  -->
+                            <li  data-toggle="collapse" data-target="#fridge" class="collapsed">
+                              <a href="#">Fridge<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="fridge">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>1 Fridge</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>2 Fridges</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>3 Fridges</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>4 Fridges</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>5 Fridges</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Washing Machine  -->
+                            <li  data-toggle="collapse" data-target="#washingmachine" class="collapsed">
+                              <a href="#">Washing Machine<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="washingmachine">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Yes</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>No</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Microwave -->
+                            <li  data-toggle="collapse" data-target="#microwave" class="collapsed">
+                              <a href="#">Microwave<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="microwave">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Yes</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>No</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Oven -->
+                            <li  data-toggle="collapse" data-target="#oven" class="collapsed">
+                              <a href="#">Oven<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="oven">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Yes</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>No</label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- Pet -->
+                            <li  data-toggle="collapse" data-target="#pet" class="collapsed">
+                              <a href="#">Pet<span class="arrow"></span></a>
+                            </li>
+                            <ul class="sub-menu collapse" id="pet">
+                                <li>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Yes</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>Small Pet Only</label>
+                                    </div>
+                                    <div class="checkbox checkbox-primary">
+                                        <input type="checkbox" value=""><label>No</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </ul>
+                 </div>
+            </div>
+            <!-- left sidebar end -->
+            <!-- right bar start -->
+            <div class="right_side_bar">
+                <div class="top_title_property">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="top_title">
+                                <h2>Property Listings <span>(20)</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="list_button f_right">
+                                <button class="btn list-btn " type="button">+ List property</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list_item_property">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/bg2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="">this is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div> 
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider2.gif" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿7,568,875,668/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/bg2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="">this is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div> 
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider2.gif" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿7,568,875,668/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/bg2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="">this is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div> 
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider2.gif" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿7,568,875,668/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/bg2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="">this is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div> 
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider4.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell:
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider2.gif" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿465,465/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="property_item">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                      <img src="assets/images/item_2.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/item_1.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/add3.jpg" alt="">
+                                    </div>
+                                    <div class="item">
+                                      <img src="assets/images/slider1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="item_title_info">
+                                    <div class="col-sm-12">
+                                        <a href="#">This is title</a>
+                                    </div>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <p class="sell">
+                                            Sell: ฿200,000
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-7 col-xs-7">
+                                        <p class="rent">Rent: ฿7,568,875,668/m</p>
+                                    </div>
+                                </div>
+                                <div class="studio">
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bed</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>1</span> bath</p>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-4">
+                                        <p><span>20</span> m<sup>2</sup></p> 
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right bar end -->
+        </div>
+        <!-- listing page main content end-->
+        <!-- footer section start -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="navbar-right menu_bottom">
+                      <li><a href="properties.html">Properties</a></li>
+                      <li><a href="agent.html">Agents</a></li>
+                      <li><a href="condo-name.html">Home Owners</a></li>
+                      <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section end -->      
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js//owl.carousel.min.js"></script>
+        <script src="assets/js/listings.js"></script>
+    </body>
+</html>

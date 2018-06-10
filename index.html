@@ -1,275 +1,221 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Shusthothaki</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,500i,600,700,700i,800,900" rel="stylesheet"> 
+        <title>JERBIT</title>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/fontawesome-all.min.css">
-  <link rel="stylesheet" href="css/nice-select.css">
-  <link rel="stylesheet" href="css/animate.min.css">
-  <link rel="stylesheet" href="css/color.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-
-<body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-  <div class="top_header_section">
-    <div class="container-fluid">
-      <div class="row">
-        <!-- top social nav -->
-        <div class="social_nav_top clear_both">
-          <div class="container">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"> 
+        
+    </head>
+    <body>
+        <!-- header section start -->
+        <div class="container-fluid">
             <div class="row">
-              <div class="col-md-12">
-                <div class="float-right">
-                  <div class="social_share">
-                    <ul>
-                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fab fa-google"></i></a></li>
-                      <li><a href="tel:01840000000"> <img src="img/icon2.png" alt="">Call Us: 01840000000</a></li>
-                    </ul>
-                  </div>
+                <nav class="navbar navbar-default navbar-fixed-top custom-nav">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed hidden-xs" data-toggle="collapse" data-target="#navbar7">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                            <a class="navbar-brand" href="index.html">JERBIT</a>
+                      </div>
+
+                      <div id="navbar7" class="navbar-collapse collapse hidden-xs">
+                        <ul class="nav navbar-nav navbar-left menu_top">
+                          <li><a href="#">Buy</a></li>
+                          <li><a href="#">Rent</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right menu_top">
+                            <li><a href="properties.html">Properties</a></li>
+                            <li><a href="agent.html">Agents</a></li>
+                            <li><a href="condo-name.html">Home Owners</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <div class="dropdown">
+                              <button class="dropbtn">chitanok@yahoo.com <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                              <div class="dropdown-content">
+                                <a href="#">Account</a>
+                                <a href="#">Properties</a>
+                                <a href="#">Messages</a>
+                                <a href="#">Settings</a>
+                                <a href="#">Pages</a>
+                                <a href="#">Security</a>
+                                <a href="#">Verification</a>
+                                <a href="#">Logout</a>
+                              </div>
+                            </div>
+                        </ul>
+                      </div>
+                      <!--/.nav-collapse -->
+
+                      <!--================ mobile menu  ===================-->
+
+                        <div class="mobile_menu visible-xs">
+                            <div id="mySidenav" class="sidenav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="#">Buy</a>
+                                <a href="#">Rent</a>
+                                <hr>
+                                <a href="properties.html">Properties</a>
+                                <a href="agent.html">Agents</a>
+                                <a href="condo-name.html">Home Owners</a>
+                                <a href="login.html">Login</a>
+                                <hr>
+                                <div class="dropdown">
+                                    <button class="dropbtn">chitanok@yahoo.com <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Account</a>
+                                        <a href="#">Properties</a>
+                                        <a href="#">Messages</a>
+                                        <a href="#">Settings</a>
+                                        <a href="#">Pages</a>
+                                        <a href="#">Security</a>
+                                        <a href="#">Verification</a>
+                                        <a href="#">Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <span style="font-size: 18px;cursor: pointer;float: right;border: 1px solid #878787;padding: 4px 10px;margin-top: 5px;color: #333;" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i> MENU</span>
+
+                            <!--=================== mobile menu  End ======================-->
+                        </div>
+                    </div>
+                    <!--/.container-fluid -->
+                </nav>
+            </div>
+        </div>
+       <!-- header section End -->
+       
+       <!-- main contant start -->
+        <div class="container-fluid blok1" style="background-image: url(assets/images/bg2.jpg);">
+            <div class="row">
+                <img src="assets" alt="">
+            </div>
+        </div>
+        <div class="container-fluid blok2">
+            <div class="row">
+                <div class="bottom_control">
+                    <div class="col-md-1 p_0">
+                        <a class="btn btn-default btn-select btn-select-light">
+                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                            <span class="btn-select-value border-off">Buy</span>
+                            <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                            <ul class="drop_down">
+                                <li>Rent</li>
+                                <li>Buy</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="col-md-2 p_0">
+                        <a class="btn btn-default btn-select btn-select-light">
+                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                            <span class="btn-select-value border-off">Bedrooms</span>
+                            <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                            <ul class="drop_down">
+                                <li>Studio</li>
+                                <li>1 Bed</li>
+                                <li>2 Beds</li>
+                                <li>3 Beds</li>
+                                <li>4 Beds</li>
+                                <li>5 Beds+</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="col-md-1 p_0">
+                        <a class="btn btn-default btn-select btn-select-light">
+                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                            <span class="btn-select-value border-off">Bathrooms</span>
+                            <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                            <ul class="drop_down">
+                                <li>Studio</li>
+                                <li>1 Bath</li>
+                                <li>2 Baths</li>
+                                <li>3 Baths</li>
+                                <li>4 Baths</li>
+                                <li>5 Baths+</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="col-md-2 p_0">
+                        <ul class="nav size_input" role="navigation">
+                            <li class="dropdown"> <a href="#" id="drop1" role="button" class="dropdown-toggle" data-toggle="dropdown">Size <span class='btn-select-arrow-right glyphicon glyphicon-chevron-down'></span></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><input class="to_text" type="text" id="size" placeholder=""/> To <input class="to_text" type="text" id="size" placeholder=""/></a>
+
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 p_0">
+                        <ul class="nav size_input" role="navigation">
+                            <li class="dropdown"> <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Budget <span class='btn-select-arrow-right glyphicon glyphicon-chevron-down'></span></a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><input class="to_text" type="text" id="Budget" placeholder=""/> To <input class="to_text" type="text" id="Budget" placeholder=""/></a>
+
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1 p_0">
+                        <a class="btn btn-default btn-select btn-select-light">
+                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                            <span class="btn-select-value border-off">Pet</span>
+                            <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                            <ul class="drop_down">
+                                <li>Yes</li>
+                                <li>No</li>
+                                <li>Small</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="col-md-3 p_0">
+                        <div id="custom-search-input">
+                            <div class="input-group">
+                                <input type="text" class="search-query form-control search_icon" placeholder="Condo Name, Road Name, Train Station Name" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default btn-search" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>    
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-        <!--End top social nav -->
-        <!-- main menu area -->
-        <div class="main_menu clear_both">
-          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-              <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Doctor</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Hospital</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
+        <!-- main contant end -->
+        <!-- footer section start -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="navbar-right menu_bottom">
+                      <li><a href="properties.html">Properties</a></li>
+                      <li><a href="agent.html">Agents</a></li>
+                      <li><a href="condo-name.html">Home Owners</a></li>
+                      <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
             </div>
-          </nav>
-        </div>
-        <!--End main menu area -->
-      </div>
-    </div>
-  </div>
-  <div class="banner_area">
-    <div class="overlay"></div>
-    <div class="container h-100">
-      <div class="row align-items-center h-100 animated fadeInDown">
-        <div class="col-lg-10 col-md-10 mx-auto">
-          <div class="bannar_text text-center">
-              <h1>Find Your Specialist Doctor</h1>
-              <h5>Dhaka District</h5>
-          </div>
-           <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 pright_off">
-                <select>
-                  <option data-display="Search by Hospital/Diagnostic/Clinic/Chamber...">Hospital Name</option>
-                  <option value="1">Lab Aid</option>
-                  <option value="2">Popular Diagnostic</option>
-                  <option value="3">Squre Hospital</option>
-                </select>
-              </div>
-              <div class="col-lg-5 col-md-5">
-                <select>
-                  <option data-display="Search by Specialist...">Specialist Name</option>
-                  <option value="1">Specialist 1</option>
-                  <option value="2">Specialist 2</option>
-                  <option value="3">Specialist 3</option>
-                  <option value="4">Specialist 4</option>
-                </select>
-              </div>
-              <div class="col-lg-1 col-md-1 padding_off">
-                <button type="submit" class="search"><i class="fas fa-search"></i></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="doctors_area_list">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="area_title">
-            <h2>available doctors : by institutions</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <ul class="list_item">
-            <li><i class="fas fa-check-square"></i><a href=""> Samorita Hospital Ltd. <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Shalahuddin Hospital <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Ibn Sina Hospitals <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Square Hospital Ltd. <span class="num_item">(50)</span></a></li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <ul class="list_item">
-            <li><i class="fas fa-check-square"></i><a href=""> Samorita Hospital Ltd. <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Shalahuddin Hospital <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Ibn Sina Hospitals <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Square Hospital Ltd. <span class="num_item">(50)</span></a></li>
-          </ul><ul class="list_item">
-           
-        </div>
-        <div class="col-64">
-          <ul class="list_item">
-            <li><i class="fas fa-check-square"></i><a href=""> Mirpur Adhunik Hospital <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Ad-din Women's Medical College <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Monowara Hospita <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Anwar Khan Modern Medical College <span class="num_item">(50)</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="more_btn">
-            <button type="button" class="btn btn-light"><i class="fas fa-angle-double-down"></i> More</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="doctors_area_list specialist">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="area_title2">
-            <h2>available doctors : by Specialists</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <ul class="list_item specialist_item">
-            <li><i class="fas fa-check-square"></i><a href=""> Dermatologists <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Family Physicians <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Dermatologists <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Endocrinologists <span class="num_item">(50)</span></a></li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <ul class="list_item specialist_item">
-            <li><i class="fas fa-check-square"></i><a href=""> Neurologists <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Neurologists <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Pediatricians <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Pediatricians <span class="num_item">(50)</span></a></li>
-          </ul>
-        </div>
-        <div class="col-4">
-          <ul class="list_item specialist_item">
-            <li><i class="fas fa-check-square"></i><a href=""> Neurologists <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Neurologists <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Pediatricians <span class="num_item">(50)</span></a></li>
-            <li><i class="fas fa-check-square"></i><a href=""> Pediatricians <span class="num_item">(50)</span></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 col-md-12 ">
-          <div class="more_btn specialist_item">
-            <button type="button" class="btn btn-light"><i class="fas fa-angle-double-down"></i> More</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="counter_section">
-    <div class="container">
-      <div class="row">
-        <div class="counter col-4">
-          <h2 class="timer count-title count-number" data-to="1300" data-speed="1500"></h2>
-           <p class="count-text ">Doctors</p>
-        </div>
+        </footer>
+        <!-- footer section end -->
 
-        <div class="counter col-4">
-          <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
-          <p class="count-text ">Patients</p>
-        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/home.js"></script>
 
-        <div class="counter col-4">
-          <h2 class="timer count-title count-number" data-to="900" data-speed="1500"></h2>
-          <p class="count-text ">Hospital/institute</p>
-        </div>        
-      </div>
-    </div>
-  </div>
-  <footer class="footer_area">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4">
-          <div class="footer_logo">
-            <img class="logo" src="img/logo.png" alt="">
-          </div>
-        </div>
-        <div class="col-lg-8 col-md-8">
-          <ul class="footer_menu">
-            <li><a href="">agrement</a></li>
-            <li><a href="">user guide</a></li>
-            <li><a href="">help</a></li>
-            <li><a href="">blog</a></li>
-            <li><a href="">contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="copy_right">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12">
-            <p class="text-center">Copyright &copy; all right reserved</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="js/vendor/jquery-3.3.1.min.js"></script>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/vendor/jquery.nice-select.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-    jQuery(document).ready(function( $ ) {
-        $('.counter').counterUp({
-            delay: 10,
-            time: 1000
-        });
-    });
-  </script>
-</body>
-
+    
+    </body>
 </html>
