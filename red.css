@@ -1,0 +1,75 @@
+.bannar_text.text-center h5 {
+    color: #E23D96;
+}
+.nice-select {
+    color: red;
+}
+.search {
+    color: red;
+}
+.social_nav_top {
+    background: red;
+}
+.search {
+    background: red;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	background: red;
+}
+.nav-link:hover{
+	background-color: red;
+}
+.doctors_area_list.specialist {
+	background: red;
+}
+.list_item li i {
+	color: red;
+}
+.list_item li a:hover{
+	color: red;
+	text-decoration: none;
+}
+.more_btn button {
+	background: #F3F3F3;
+	border: 1px solid red;
+	color: red;
+}
+.more_btn button:hover{
+	background: red;
+}
+.more_btn.specialist_item button {
+    background: red;
+}
+.more_btn.specialist_item button:hover{
+	color: red;
+}
+.count-text {
+    color: red;
+}
+.footer_menu li a:hover{
+   color: red
+}
+.footer_menu li a {
+    border-right: 1px solid red;
+}
+.copy_right{
+	background: red;
+}
+.area_title h2 {
+	color: red;
+}
+.list_item li a span{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

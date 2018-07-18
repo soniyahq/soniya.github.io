@@ -1,0 +1,75 @@
+.bannar_text.text-center h5 {
+    color: #E23D96;
+}
+.nice-select {
+    color: #00AEA9;
+}
+.search {
+    color: #00AEA9;
+}
+.social_nav_top {
+    background: #00AEA9;
+}
+.search {
+    background: #00AEA9;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	background: #00AEA9;
+}
+.nav-link:hover{
+	background-color: #00AEA9;
+}
+.doctors_area_list.specialist {
+	background: #00AEA9;
+}
+.list_item li i {
+	color: #00AEA9;
+}
+.list_item li a:hover{
+	color: #00AEA9;
+	text-decoration: none;
+}
+.more_btn button {
+	background: #F3F3F3;
+	border: 1px solid #00AEA9;
+	color: #00AEA9;
+}
+.more_btn button:hover{
+	background: #00AEA9;
+}
+.more_btn.specialist_item button {
+    background: #00AEA9;
+}
+.more_btn.specialist_item button:hover{
+	color: #00AEA9;
+}
+.count-text {
+    color: #00AEA9;
+}
+.footer_menu li a:hover{
+   color: #00AEA9
+}
+.footer_menu li a {
+    border-right: 1px solid #00AEA9;
+}
+.copy_right{
+	background: #00AEA9;
+}
+.area_title h2 {
+	color: #00AEA9;
+}
+.list_item li a span{
+    color: #00AEA9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
