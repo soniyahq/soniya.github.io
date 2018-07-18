@@ -1,0 +1,196 @@
+.form_section {
+	clear: both;
+	overflow: hidden;
+}
+.drop_images{
+	text-align: center;
+}
+.btn-bs-file {
+	position: relative;
+	background-color: transparent;
+	color: #1e87f0;
+	border: 0px;
+	font-size: 16px;
+	padding: 0;
+}
+.btn-bs-file:hover{
+	background-color: #fff;
+	color: #1e87f0;
+}
+.drop_images p {
+	font-size: 16px;
+}
+.drop_images p i {
+	font-size: 20px;
+	padding-right: 5px;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+.list_property_area {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+	color: #999;
+	overflow: hidden;
+	position: relative;
+}
+.property_list_top h2 {
+	font-size: 32px;
+	font-weight: normal;
+	color: #333;
+}
+.property_list_top {
+	padding: 20px 40px;
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+.property_list_body {
+	padding: 40px;
+}
+.info_text {
+	text-align: center;
+	font-size: 16px;
+}
+.property_info {
+	color: #1e87f0;
+}
+.proper_progrees {
+	height: 15px !important;
+	border-radius: 10px !important;
+	background-color: #F8F8F8;
+}
+.proper_progreesbar{
+	background-color: #1e87f0;
+}
+.form_section label span {
+	color: #333;
+	font-weight: 300;
+	font-size: 14px;
+}
+.boderbottom {
+	border-bottom: 1px solid #e5e5e5;
+	display: block;
+	margin: 20px;
+}
+.form-control {
+	border-radius: 0px;
+	border: 1px solid #e5e5e5;
+	height: 40px;
+	box-shadow: unset;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #999;
+}
+.form_section p {
+	font-weight: 300;
+}
+.form_section p span {
+	color: #333;
+	text-decoration: underline;
+}
+.p_top_20{
+	padding-top: 20px;
+}
+.p_right_0{
+	padding-right: 0px;
+}
+.control-label {
+	padding-right: 0;
+}
+.lable_height {
+	line-height: 40px;
+}
+.form_section input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+}
+option {
+  font-size: 16px !important;
+  font-weight: 300 !important; 
+}
+.radio_fix {
+	font-weight: 300 !important;
+    font-size: 16px !important;
+}
+.radio_fix label {
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}
+.property_list_bottom {
+	text-align: right;
+	padding: 20px 40px;
+	border-top: 1px solid #e5e5e5;
+	width: 100%;
+	overflow: hidden;
+}
+.form_section img {
+	width: 65%;
+}
+.drop_images {
+	border: 1px dashed #e5e5e5;
+	padding: 30px 0px;
+}
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.save-btn{
+	background-color: #1e87f0;
+	padding: 0 25px;
+	line-height: 40px;
+	font-size: 14px;
+	margin: 4px 0px;
+	border-radius: 0px;
+	color: #fff;
+	transition: .3s;
+	height: 40px;
+}
+.affix {
+	position: fixed;
+	background-color: #fff;
+	z-index: 9999;
+	top: 80px;
+}
+.direction {
+  padding: 6px 10px;
+  width: 90%;
+  margin: 0;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+}
+
+.plus_icon {
+	text-align: center;
+	line-height: 34px;
+	position: absolute;
+	left: 35%;
+	font-weight: 300;
+}
+.button_box {
+	font-weight: 300;
+	color: #333;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
